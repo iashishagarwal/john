@@ -2,13 +2,15 @@
 John the ultimate copilot
 
 #####Setup
-
+<pre>
 1. Install pip3
 2. Install openai using pip3 
 3. Get openai api key
 4. set api key to OPENAI_API_KEY variable in your shell
+</pre>
 
 ##### Usage
+<pre>
 usage: buddy.py [-h] [-d] [-t TEMPERATURE] [-m MAXTOKENS]
 
 optional arguments:
@@ -18,11 +20,11 @@ optional arguments:
                         Temperature value
   -m MAXTOKENS, --maxtokens MAXTOKENS
                         Maximum number of tokens
-
+</pre>
 ##### Example
 
 ###### Example 1
-
+<pre>
 Debug mode is not enabled.
 Temperature: 0.3
 Maximum number of tokens: 150
@@ -45,10 +47,10 @@ B. Impact on Society
 IV. Conclusion
 A. Summary of Causes and Impact of the Civil War
 B. Reflection on the Legacy of the Civil War
-
+</pre>
 ###### Example 2
+<pre>
 Prompt: write an email requesting status of my house project from Mountain view city department
-
 
 Subject: Request for Status of House Project
 
@@ -62,13 +64,13 @@ Thank you for your time and consideration.
 
 Sincerely,
 [Your Name]
-
+</pre>
 ###### Example 3
+<pre>
 Prompt: write a happy holidays post for my engineering organization
 
-
 Happy Holidays from the Engineering Department! We hope you all have a safe and joyous holiday season. We are thankful for all the hard work and dedication that each of you have put in this year. We look forward to continuing to work together in the new year and making great strides in engineering! Wishing you all a wonderful holiday season!
-
+</pre>
 ###### Example 4
 <pre>
 Debug mode is not enabled.
