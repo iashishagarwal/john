@@ -70,6 +70,7 @@ Prompt: write a happy holidays post for my engineering organization
 Happy Holidays from the Engineering Department! We hope you all have a safe and joyous holiday season. We are thankful for all the hard work and dedication that each of you have put in this year. We look forward to continuing to work together in the new year and making great strides in engineering! Wishing you all a wonderful holiday season!
 
 ###### Example 4
+<pre>
 Debug mode is not enabled.
 Temperature: 0.3
 Maximum number of tokens: 150
@@ -79,3 +80,4 @@ Quite what would push the West in a new direction is unclear. There is no sign o
 
 
 This text is discussing how high levels of debt have limited the ability of policymakers to make decisions. It also mentions that private debt has risen significantly since 2000, and that politicians are focused on avoiding a repeat of the global financial crisis rather than accepting short-term pain for long-term gain.
+</pre>
