@@ -67,9 +67,18 @@ Sincerely,
 </pre>
 ###### Example 3
 <pre>
-Prompt: write a happy holidays post for my engineering organization
+Prompt: what are the top 5 things I should know about roman mythology
 
-Happy Holidays from the Engineering Department! We hope you all have a safe and joyous holiday season. We are thankful for all the hard work and dedication that each of you have put in this year. We look forward to continuing to work together in the new year and making great strides in engineering! Wishing you all a wonderful holiday season!
+
+1. The gods and goddesses of Roman mythology were based on the gods and goddesses of Greek mythology.
+
+2. The most important gods in Roman mythology were Jupiter, Juno, and Minerva.
+
+3. Roman mythology was heavily influenced by the Etruscans, who were a people who lived in Italy before the Romans.
+
+4. Roman mythology was used to explain natural phenomena and to provide moral guidance.
+
+5. Roman mythology was also used to explain the origin of Rome and its people.
 </pre>
 ###### Example 4
 <pre>
