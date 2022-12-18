@@ -1,13 +1,54 @@
 # john
 John the ultimate copilot
 
-#####Setup
+######Setup
 <pre>
-1. Install pip3
-2. Install openai using pip3 
-3. Get openai api key
-4. set api key to OPENAI_API_KEY variable in your shell
+1. First, make sure you have pip3 and virtualenv installed on your system. If you do not have them installed, you can install them by running the following commands:
+
+<code>
+python3 -m pip install pip
+python3 -m pip install virtualenv
+</code>
+
+2. Once you have pip3 and virtualenv installed, create a new virtual environment by running the following command:
+<code>
+virtualenv <env_name>
+</code>
+
+Replace <env_name> with the desired name for your virtual environment.
+
+3. Activate the virtual environment by running the following command:
+<code>
+source <env_name>/bin/activate
+</code>
+
+4. Use pip3 to install the openai and colorama libraries by running the following commands:
+<code>
+pip3 install openai
+pip3 install colorama
+</code>
+
+5. Next, you will need to obtain an API key for the OpenAI API. You can do this by signing up for an account at the OpenAI Developer Portal (https://beta.openai.com/signup/developer).
+
+6. Once you have obtained an API key, set it as the value of the OPENAI_API_KEY environment variable in your shell. This will allow you to use the OpenAI API in your Python programs. To set the environment variable, you can use the export command in bash or the set command in PowerShell, like this:
+<code>
+# Bash
+export OPENAI_API_KEY=<your_api_key>
+
+# PowerShell
+set OPENAI_API_KEY=<your_api_key>
+</code>
+
+Replace <your_api_key> with your actual API key.
+
+7. When you are finished using the virtual environment, you can deactivate it by running the following command:
+
+<code>
+deactivate
+</code>
+
 </pre>
+
 
 ##### Usage
 <pre>
