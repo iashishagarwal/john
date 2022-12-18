@@ -48,8 +48,8 @@ deactivate
 
 
 ##### Usage
-<pre>
-usage: buddy.py [-h] [-d] [-t TEMPERATURE] [-m MAXTOKENS]
+```
+usage: john.py [-h] [-d] [-t TEMPERATURE] [-m MAXTOKENS]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -58,7 +58,8 @@ optional arguments:
                         Temperature value
   -m MAXTOKENS, --maxtokens MAXTOKENS
                         Maximum number of tokens
-</pre>
+```
+
 ##### Example
 
 ###### Example 1
