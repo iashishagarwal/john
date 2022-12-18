@@ -9,9 +9,9 @@ from colorama import Fore, Style
 parser = argparse.ArgumentParser()
 
 # Add an argument to the parser
-parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode")
-parser.add_argument("-t", "--temperature", type=float, default=0.3, help="Temperature value")
-parser.add_argument("-m", "--maxtokens", type=int, default=150, help="Maximum number of tokens")
+parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode. Default to false.")
+parser.add_argument("-t", "--temperature", type=float, default=0.3, help="Defaults to 0.3. Provide a float value, Higher values means the model will take more risks. Try 0.9 for more creative applications, and 0 (argmax sampling) for ones with a well-defined answer.") 
+parser.add_argument("-m", "--maxtokens", type=int, default=150, help="Defaults to 150, The token count of your prompt plus max_tokens cannot exceed the model's context length. Most models have a context length of 2048 tokens (except for the newest models, which support 4096).")
 
 # Parse the arguments
 args = parser.parse_args()
