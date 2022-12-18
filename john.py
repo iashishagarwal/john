@@ -1,3 +1,5 @@
+# This project uses the OpenAI API (https://beta.openai.com/)
+
 import os
 import openai
 import argparse
