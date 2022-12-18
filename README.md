@@ -2,7 +2,6 @@
 John the ultimate copilot
 
 ######Setup
-<pre>
 1. First, make sure you have pip3 and virtualenv installed on your system. If you do not have them installed, you can install them by running the following commands:
 
 ```
