@@ -45,7 +45,16 @@ set OPENAI_API_KEY=<your_api_key>
 
 Replace <your_api_key> with your actual API key.
 
-7. When you are finished using the virtual environment, you can deactivate it by running the following command:
+7. Copy john.py by gitclone repo 
+
+```
+cd <env_name>
+git clone git@github.com:iashishagarwal/john.git
+cd john
+python3 john.py
+```
+
+8. When you are finished using the virtual environment, you can deactivate it by running the following command:
 
 ```
 deactivate
