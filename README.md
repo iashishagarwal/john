@@ -67,11 +67,11 @@ usage: john.py [-h] [-d] [-t TEMPERATURE] [-m MAXTOKENS]
 
 optional arguments:
   -h, --help            show this help message and exit
-  -d, --debug           Enable debug mode
+  -d, --debug           Enable debug mode (default : off)
   -t TEMPERATURE, --temperature TEMPERATURE
-                        Temperature value
+                        Provide a float value, Higher values means the model will take more risks. Try 0.9 for more creative applications, and 0 (argmax sampling) for ones with a well-defined answer. Defaults to 0.3.
   -m MAXTOKENS, --maxtokens MAXTOKENS
-                        Maximum number of tokens
+                        The token count of your prompt plus max_tokens cannot exceed the model's context length. Most models have a context length of 2048 tokens (except for the newest models, which support 4096). Defaults to 150.
 ```
 
 ##### Example
