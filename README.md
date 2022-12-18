@@ -12,9 +12,11 @@ python3 -m pip install virtualenv
 2. Once you have pip3 and virtualenv installed, create a new virtual environment by running the following command:
 ```
 virtualenv <env_name>
-(on macOS, if virtualenv is not found. Uninstall virtualenv and rerun as sudo
-python3 -m pip uninstall virtualenv 
-sudo pip3 install virtualenv
+
+
+Skip follow steps if the virtualenv command executed successfull. On macOS, if virtualenv is not found. Uninstall virtualenv and rerun as sudo)
+> python3 -m pip uninstall virtualenv 
+> sudo pip3 install virtualenv
 ```
 
 Replace <env_name> with the desired name for your virtual environment.
