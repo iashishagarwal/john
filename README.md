@@ -48,8 +48,7 @@ Replace <your_api_key> with your actual API key.
 7. Copy john.py by gitclone repo 
 
 ```
-cd <env_name>
-git clone git@github.com:iashishagarwal/john.git
+git clone https://github.com/iashishagarwal/john.git
 cd john
 python3 john.py
 ```
